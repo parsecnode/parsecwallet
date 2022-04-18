@@ -12,10 +12,8 @@ BUILDING PARSEC WALLET
 git clone https://github.com/parsecnode/parsecwallet.git
 ```
 
-**2. Remove Current cryptonote reference and set symbolic link to coin sources at the same level as `src`. For example:**
-```
-cd parsecwallet && sudo rm -R cryptonote
-```
+**2. Set symbolic link to coin sources at the same level as `src`. For example:**
+
 ```
 ln -s ~/parsec/cryptonote ~/parsecwallet/
 ```

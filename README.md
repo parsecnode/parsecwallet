@@ -32,6 +32,7 @@ sudo apt install qttools5-dev-tools qttools5-dev
 **4. Build**
 
 ```
+cd parsecwallet
 mkdir build && cd build && cmake .. && make
 ```
 ```
